@@ -35,9 +35,6 @@ image.onload = function(e) {
 function initCanvas() {
 	console.log('initCanvas');
 	clippingRegion.r = 0;
-	// if ( isRunningShow ) {
-	// 	clearInterval(animation);
-	// }
 	var x = Math.random()*(canvasWidth-2*radius)+50;
 	var y = Math.random()*(canvasHeight-2*radius)+50;
 	clippingRegion.x = x;
@@ -50,7 +47,6 @@ function initCanvas() {
 			clearInterval(animation2);
 		}
 	}, 50);
-	draw(image, clippingRegion);
 }
 
 // 在画布上进行绘制---向画布上绘制图片以及进行剪辑
