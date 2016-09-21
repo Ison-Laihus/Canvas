@@ -49,7 +49,6 @@ function initCanvas() {
 			clearInterval(animation2);
 		}
 	}, 50);
-	draw(image, clippingRegion);
 }
 
 // 在画布上进行绘制---向画布上绘制图片以及进行剪辑
